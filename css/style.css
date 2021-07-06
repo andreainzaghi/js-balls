@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+   
+    display: flex;
+}
+#canvas1{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: 3;
+}
+.container section{
+   min-width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   padding:50px;
+}
+.container section:nth-child(1){
+
+    background: linear-gradient(
+        145deg
+        , rgba(51,155,158,1) 0%, #09ce68 100%);
+ }
+ .container section:nth-child(2){
+
+    background-color: rgb(250, 235, 215);
+ }
+ .container section:nth-child(3){
+
+    background-color: rgb(215, 239, 250);
+ }
+ .container section:nth-child(4){
+ 
+    background-color: rgb(250, 215, 245);
+ }
+ .content{
+     display:flex;
+     justify-content: center;
+   align-items: center;
+ 
+ }
